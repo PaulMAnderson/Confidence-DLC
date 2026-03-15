@@ -1,0 +1,20 @@
+dataset: /mnt/c/Users/Paul/iCloudDrive/Documents/Work/MedUni Wien/Analysis/Deeplabcut/Confidence-Pytorch-Paul-2023-10-25
+dataset_type: multi-animal-imgaug
+num_joints: 6
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+all_joints_names:
+- leftEar
+- rightEar
+- implant
+- rightPort
+- centrePort
+- leftPort
+net_type: resnet_50
+global_scale: 1
+scoremap_dir: test
