@@ -1,0 +1,66 @@
+    # Project definitions (do not edit)
+Task: Confidence
+scorer: Paul
+date: Aug9
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /mnt/c/Users/Paul/iCloudDrive/Documents/Work/MedUni Wien/Analysis/Deeplabcut/Confidence-Paul-2022-08-09
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /mnt/c/Users/Paul/test.mp4:
+    crop: 0, 640, 0, 480
+
+bodyparts:
+- leftEar
+- rightEar
+- implant
+- leftPort
+- rightPort
+- centrePort
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0.1
+stop: 0.75
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - implant
+  - leftEar
+- - implant
+  - rightEar
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 4
+alphavalue: 0.3
+colormap: twilight_shifted
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

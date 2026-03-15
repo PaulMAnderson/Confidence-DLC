@@ -1,0 +1,159 @@
+    # Project definitions (do not edit)
+Task: Confidence
+scorer: Paul
+date: Aug9
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2022-08-09
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\\Users\\Paul\\test.mp4:
+    crop: 0, 640, 0, 480
+  E:\Optotagging\PMA36\PMA36 210916\Videos\PMA36 2021_09_16_09_31_58 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 210916\Videos\PMA36 2021_09_16_09_31_58 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 211007\Videos\PMA36 2021_10_07_14_17_06 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 211007\Videos\PMA36 2021_10_07_14_17_06 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 211019\Videos\PMA36 2021_10_19_09_46_44 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 211019\Videos\PMA36 2021_10_19_09_46_44 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 211102\Videos\PMA36 2021_11_02_13_37_42 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 211102\Videos\PMA36 2021_11_02_13_37_42 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 211104\Videos\PMA37 2021_11_04_10_13_07 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 211104\Videos\PMA37 2021_11_04_10_13_07 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 211112\Videos\PMA37 2021_11_12_10_13_39 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 211112\Videos\PMA37 2021_11_12_10_13_39 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 211126\Videos\PMA37 2021_11_26_10_38_43 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 211126\Videos\PMA37 2021_11_26_10_38_43 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 220105\Videos\PMA37 2022_01_05_10_12_11 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 220105\Videos\PMA37 2022_01_05_10_12_11 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 220125\Videos\PMA37 2022_01_25_09_22_48 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA37\PMA37 220125\Videos\PMA37 2022_01_25_09_22_48 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA41\PMA41 211215\Videos\PMA41 2021_12_15_09_34_36 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA41\PMA41 211215\Videos\PMA41 2021_12_15_09_34_36 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA41\PMA41 220112\Videos\PMA41 2022_01_12_11_53_22 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA41\PMA41 220112\Videos\PMA41 2022_01_12_11_53_22 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA41\PMA41 220204\Videos\PMA41 2022_02_04_12_01_21 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA41\PMA41 220204\Videos\PMA41 2022_02_04_12_01_21 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA41\PMA41 220223\Videos\PMA41 2022_02_23_09_28_37 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA41\PMA41 220223\Videos\PMA41 2022_02_23_09_28_37 Cam2.mp4:
+    crop: 0, 720, 0, 540
+  F:\Optotagging\PMA17\PMA17 201208\Videos\PMA17_2020-12-08-103710 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA17\PMA17 201202\Videos\PMA17_2020-12-02-102317 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA17\PMA17 201127 - PAG\Videos\PMA17_2020-11-27-090123 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA17\PMA17 201124\Videos\PMA17_2020-11-24-122203 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA17\PMA17 201116\Videos\PMA17_2020-11-16-154227 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA17\PMA17 201207 - PAG\Videos\PMA17_2020-12-07-113957 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA18\PMA18 201201\Videos\PMA18_2020-12-01-135256 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA18\PMA18 201123\Videos\PMA18_2020-11-23-132359 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA18\PMA18 201206\Videos\PMA18_2020-12-06-122840 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  F:\Optotagging\PMA18\PMA18 201116\Videos\PMA18_2020-11-16-102234 Cam2.mp4:
+    crop: 0, 1288, 0, 964
+  E:\Optotagging\PMA36\PMA36 210809\Videos\PMA36 Confidence Task-08092021163638 Cam2.mp4:
+    crop: 0, 640, 0, 512
+  E:\Optotagging\PMA36\PMA36 210812\Videos\PMA36 confidence task-08122021155110 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 210824\Videos\PMA36 Confidence Task 210824-08242021134330 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 210901\Videos\PMA36 Confidence Task 21001-09012021114436 Cam1.mp4:
+    crop: 0, 720, 0, 540
+  E:\Optotagging\PMA36\PMA36 210902\Videos\PMA36 Confidence Task-09022021102210 Cam1.mp4:
+    crop: 0, 720, 0, 540
+
+
+bodyparts:
+- leftEar
+- rightEar
+- implant
+- leftPort
+- rightPort
+- centrePort
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0.1
+stop: 0.75
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - implant
+  - leftEar
+- - implant
+  - rightEar
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 4
+alphavalue: 0.3
+colormap: twilight_shifted
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

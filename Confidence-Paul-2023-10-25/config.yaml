@@ -1,0 +1,167 @@
+# Project definitions (do not edit)
+Task: Confidence
+scorer: Paul
+date: Oct25
+multianimalproject: false
+identity:
+
+
+# Project path (change when moving around)
+project_path: /mnt/c/Users/Paul/iCloudDrive/Documents/Work/MedUni Wien/Analysis/Deeplabcut/Confidence-Paul-2023-10-25
+
+
+# Default DeepLabCut engine to use for shuffle creation (either pytorch or tensorflow)
+engine: tensorflow
+
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\ML118_051116
+    Cam2.mp4
+  : crop: 0, 640, 0, 480
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\ML124_060317
+    Cam2.mp4
+  : crop: 0, 640, 0, 480
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\ML127_130717
+    Cam2.mp4
+  : crop: 0, 640, 0, 480
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\ML138_040418
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\ML140_190818
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\ML145_051118
+    \Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\ML149_060519
+    \Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\ML192_290520
+    \Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA17_2020-11-16-154227
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA17_2020-11-24-122203
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA17_2020-11-27-090123
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA17_2020-12-02-102317
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA17_2020-12-07-113957
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA17_2020-12-08-103710
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA18_2020-11-16-102234
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA18_2020-11-23-132359
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA18_2020-12-01-135256
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni 
+    Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA18_2020-12-06-122840
+    Cam2.mp4
+  : crop: 0, 1288, 0, 964
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA36
+    2021_09_16_09_31_58 Cam1.mp4
+  : crop: 0, 720, 0, 540
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA36
+    2021_09_16_09_31_58 Cam2.mp4
+  : crop: 0, 720, 0, 540
+  ? C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2023-10-25\videos\PMA36
+    Confidence Task 21001-09012021114436 Cam1.mp4
+  : crop: 0, 720, 0, 540
+bodyparts:
+- leftEar
+- rightEar
+- implant
+- rightPort
+- centrePort
+- leftPort
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0.1
+stop: 0.75
+numframes2pick: 20
+
+
+# Plotting configuration
+skeleton:
+- - implant
+  - leftEar
+- - implant
+  - rightEar
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 4
+alphavalue: 0.3
+colormap: twilight_shifted
+
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+detector_snapshotindex: -1
+batch_size: 8
+detector_batch_size: 1
+
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+
+
+# Conversion tables to fine-tune SuperAnimal weights
+SuperAnimalConversionTables:

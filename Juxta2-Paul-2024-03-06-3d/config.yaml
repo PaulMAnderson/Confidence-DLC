@@ -1,0 +1,41 @@
+# Project definitions (do not edit)
+Task: Juxta2
+scorer: Paul
+date: Mar6
+
+# Project path (change when moving around)
+project_path: C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\\Juxta2-Paul-2024-03-06-3d
+
+# Plotting configuration
+skeleton:     # Note that the pairs must be defined, as you want them linked!
+- -
+    bodypart1
+  - bodypart2
+- - bodypart2
+  - bodypart3
+- - bodypart3
+  - bodypart4
+- - bodypart4
+  - bodypart5
+skeleton_color: black
+pcutoff: 0.4
+colormap: jet
+dotsize: 15
+alphaValue: 0.8
+markerType: '*'
+markerColor: r
+
+# Number of cameras, camera names, path of the config files, shuffle index and trainingsetindex used to analyze videos:
+num_cameras: 2
+camera_names:
+- Cam1
+- Cam2
+scorername_3d: DLC_3D # Enter the scorer name for the 3D output
+trainingsetindex_camera-1: 0
+trainingsetindex_camera-2: 0
+config_file_Cam1: 
+  /home/mackenzie/DEEPLABCUT/DeepLabCut/2DprojectCam1-Mackenzie-2019-06-05/config.yaml
+config_file_Cam2: 
+  /home/mackenzie/DEEPLABCUT/DeepLabCut/2DprojectCam2-Mackenzie-2019-06-05/config.yaml
+shuffle_Cam1: 1
+shuffle_Cam2: 1

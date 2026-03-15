@@ -1,0 +1,61 @@
+# Project definitions (do not edit)
+Task: Confidence
+scorer: Paul
+date: Sep28
+
+# Project path (change when moving around)
+project_path: C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2022-08-09-3d
+
+# Plotting configuration
+skeleton:     # Note that the pairs must be defined, as you want them linked!
+- -
+    implant
+  - leftEar
+- - implant
+  - rightEar
+- - centrePort
+  - rightPort
+- - centrePort
+  - leftPort
+
+skeleton_color: black
+pcutoff: 0.4
+colormap: jet
+dotsize: 15
+alphaValue: 0.8
+markerType: '*'
+markerColor: r
+
+# Number of cameras, camera names, path of the config files, shuffle index and trainingsetindex used to analyze videos:
+num_cameras: 2
+camera_names:
+- Cam1
+- Cam2
+scorername_3d: Paul # Enter the scorer name for the 3D output
+multianimalproject:
+identity:
+video_sets:
+bodyparts: implant
+start:
+stop:
+numframes2pick:
+alphavalue:
+TrainingFraction:
+iteration:
+default_net_type:
+default_augmenter:
+snapshotindex:
+batch_size:
+cropping:
+x1:
+x2:
+y1:
+y2:
+corner2move2:
+move2corner:
+trainingsetindex_Cam1: -1
+trainingsetindex_Cam2: -1
+config_file_Cam1: C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2022-08-09\config.yaml
+config_file_Cam2: C:\Users\Paul\iCloudDrive\Documents\Work\MedUni Wien\Analysis\Deeplabcut\Confidence-Paul-2022-08-09\config.yaml
+shuffle_Cam1: 1
+shuffle_Cam2: 1

@@ -1,0 +1,25 @@
+# Old TensorFlow model weights (superseded by PyTorch model in Confidence-Pytorch-*)
+# Matches dlc-models/ but NOT dlc-models-pytorch/
+dlc-models/
+
+# Large raw training videos (keep test videos/ - those are small extracted clips)
+videos/
+training-videos/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# iCloud placeholders
+*.icloud
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+
+# Weights & Biases experiment tracking (large run artifacts)
+wandb/
