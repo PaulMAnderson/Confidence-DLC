@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Paul\\iCloudDrive\\Documents\\Work\\MedUni Wien\\Analysis\\Deeplabcut\\Confidence-Paul-2022-08-09\\dlc-models\\iteration-0\\ConfidenceAug9-trainset95shuffle1\\train\\snapshot-250000"
+all_model_checkpoint_paths: "C:\\Users\\Paul\\iCloudDrive\\Documents\\Work\\MedUni Wien\\Analysis\\Deeplabcut\\Confidence-Paul-2022-08-09\\dlc-models\\iteration-0\\ConfidenceAug9-trainset95shuffle1\\train\\snapshot-250000"

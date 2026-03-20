@@ -1,0 +1,12 @@
+# Exclude intermediate snapshots - only keep the final one
+snapshot-*.data-00000-of-00001
+snapshot-*.index
+snapshot-*.meta
+!snapshot-350000.data-00000-of-00001
+!snapshot-350000.index
+!snapshot-350000.meta
+
+# Training logs - not needed for inference
+log/
+log.txt
+learning_stats.csv
