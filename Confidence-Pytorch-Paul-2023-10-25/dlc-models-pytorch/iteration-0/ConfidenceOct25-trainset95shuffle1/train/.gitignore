@@ -1,0 +1,8 @@
+# Exclude intermediate snapshots - only keep the final one
+snapshot-*.pt
+!snapshot-best-230.pt
+
+# Training logs - not needed for inference
+log/
+log.txt
+learning_stats.csv
